@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FlashcardsFragment()).commit();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
