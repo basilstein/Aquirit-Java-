@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_flashcards"
+        android:icon="@drawable/flashcardsclipart"
+        android:title="@string/flashcards_text" />
+    <item
+        android:id="@+id/nav_topics"
+        android:icon="@drawable/topicsclipart"
+        android:title="@string/topics_text" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profileclipart"
+        android:title="@string/profile_text" />
+</menu>
